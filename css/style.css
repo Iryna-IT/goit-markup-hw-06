@@ -99,6 +99,7 @@ body {
 /* link Portfolio */
 .filter-link:hover {
   color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* Переходы ссылок focus и hover */
@@ -181,7 +182,6 @@ body {
 .main-navigation-link:not(.logo),
 .contacts-link {
   padding-top: 32px;
-  /* padding-bottom: 32px; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -230,6 +230,7 @@ body {
 .contacts-link {
   display: flex;
   color: var(--text-color-main);
+  padding-bottom: 32px;
 }
 
 .contacts-icon {
@@ -297,6 +298,7 @@ section {
 .button-submit:hover,
 .button-submit:focus {
   background-color: #188ce8;
+  cursor: pointer;
 }
 
 /* Модальное окно*/
@@ -334,6 +336,8 @@ flex-direction: column;
 padding-left: 40px;
 padding-right: 40px;
 background-color: var(--background-color-main);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
 }
 
 .modal-form-action {
@@ -379,7 +383,8 @@ margin-bottom: 28px;
 .form-input {
 width: 100%;
 height: 40px;
-padding-left: 42px;}
+padding-left: 42px;
+cursor: pointer;}
 
 .form-input,
 .form-textarea {
@@ -432,6 +437,7 @@ fill: var(--accent-color);}
   height: 120px;
   padding: 12px 16px;
   resize: none;
+  cursor: pointer;
 }
 
 .form-textarea::placeholder {
@@ -523,6 +529,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cu
 .modal-form-btn:focus,
 .modal-form-btn:hover {
   background-color:#188CE8;
+  cursor: pointer;
 }
 
 /* Sections' titles */
@@ -693,6 +700,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cu
 .socials-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .socials-link:hover .socials-icon,
@@ -721,6 +729,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cu
 .clients-item:hover,
 .clients-link:focus .clients-item {
   border-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .clients-icon {
@@ -781,6 +790,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cu
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
   color: var(--title-color-dark-theme);
+  cursor: pointer;
 }
 
 /* Projects */
@@ -803,6 +813,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cu
 .projects-link:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 
 .projects-item:nth-child(3n) {
@@ -952,6 +963,7 @@ footer .container {
 .join-socials-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .join-socials-icon,
